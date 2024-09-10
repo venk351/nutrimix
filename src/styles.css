@@ -1,0 +1,154 @@
+.logo {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  display: block;
+  height: 50%;
+  max-height: 200px;
+}
+.header {
+  background-color: #f8f8de;
+}
+.nutrition-image {
+  width: 200px;
+  height: 200px;
+}
+
+.nutrition-cart {
+  background-color: white;
+  width: 250px;
+  height: 300px;
+  padding: 100px;
+  margin: 20px;
+  border: 1px solid black;
+  display: inline-block;
+  
+}
+.details {
+  display: block;
+}
+
+.nutrition{
+    display: inline-flex;
+    border: 1px solid black;
+}
+
+.nutrition-grid{
+    background-color: grey;
+    border: 2px solid black;
+    margin: 100px;
+}
+.search{
+    width: 1000px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.tabs{
+  border: 1px solid black;
+  margin: 10px;
+  background-color: bisque;
+  text-decoration: none;
+  color: #132dbd;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.tabs:hover,
+.submit-btn:hover{
+  color: white;
+  background-color: #4ad189;
+  
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #141414;
+  transition: .4s;
+  border-radius: 34px;
+}
+.slider-label {
+  color: #fff; 
+  font-size: 12px; 
+  width: 100%; 
+  line-height: 24px; 
+  transition: opacity 0.4s ease; 
+}
+.switch {
+  margin: 20px auto;
+  position: relative;
+  display: inline-block;
+  width: 150px; 
+  height: 24px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .slider:before {
+  transform: translateX(125px); /* Move the circle to the other side */
+}
+
+input:checked + .slider {
+  background-color: #4ad189;
+}
+.feedback-form{
+  margin: 20px;
+}
+
+.feedback-text{
+  height: 200px;
+  width: 500px;
+  font-size: 20px;
+}
+.feedback-item{
+  border: 2px solid black;
+  width: 900px;
+  height: 300px;
+  margin-left:  450px;
+}
+li{
+  list-style: none;
+}
+#title{
+  font-size: 20px;
+  margin: 10px;
+}
+#title:focus,
+textarea:focus{
+  border: 5px solid #e48e1e;
+}
+
+.submit-btn{
+  background-color: #e48e1e;
+  font-size: 20px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.rating{
+  margin: 10px;
+}

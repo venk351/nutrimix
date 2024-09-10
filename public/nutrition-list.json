@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Almond",
+    "image": "1.jpg",
+    "nutritionType": "Dry-Fruits",
+    "nutritionAmount": "8.3"
+  },
+  {
+    "id": 2,
+    "title": "Beet Rroot",
+    "image": "2.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "7.7"
+  },
+  {
+    "id": 3,
+    "title": "Bitter Gaurd",
+    "image": "3.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "6.3"
+  },
+  {
+    "id": 4,
+    "title": "Broccoli",
+    "image": "4.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "9.3"
+  },
+  {
+    "id": 5,
+    "title": "Bringal",
+    "image": "5.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "6.9"
+  },
+  {
+    "id": 6,
+    "title": "Cauliflower",
+    "image": "6.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "8.4"
+  },
+  {
+    "id": 7,
+    "title": "Carrot",
+    "image": "7.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "9.8"
+  },
+  {
+    "id": 8,
+    "title": "Cashew",
+    "image": "8.jpg",
+    "nutritionType": "Dry-Fruits",
+    "nutritionAmount": "7.2"
+  },
+  {
+    "id": 9,
+    "title": "Chicken",
+    "image": "9.jpg",
+    "nutritionType": "Non-Veg",
+    "nutritionAmount": "1.7"
+  },
+  {
+    "id": 10,
+    "title": "Cucumber",
+    "image": "10.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "7.5"
+  },
+  {
+    "id": 11,
+    "title": "Drumstick",
+    "image": "11.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "8.5"
+  },
+  {
+    "id": 12,
+    "title": "Dry Grapes",
+    "image": "1.jpg",
+    "nutritionType": "Dry-Fruits",
+    "nutritionAmount": "7.5"
+  },
+  {
+    "id": 13,
+    "title": "Fish",
+    "image": "13.jpg",
+    "nutritionType": "Non-Veg",
+    "nutritionAmount": "8.4"
+  },
+  {
+    "id": 14,
+    "title": "Grapes",
+    "image": "14.jpg",
+    "nutritionType": "Fruit",
+    "nutritionAmount": "6.5"
+  },
+  {
+    "id": 15,
+    "title": "Guava",
+    "image": "15.jpg",
+    "nutritionType": "Fruit",
+    "nutritionAmount": "9.8"
+  },
+  {
+    "id": 16,
+    "title": "Lady Finger",
+    "image": "16.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "9.1"
+  },
+  {
+    "id": 17,
+    "title": "Mango",
+    "image": "17.jpg",
+    "nutritionType": "Fruit",
+    "nutritionAmount": "4.0"
+  },
+  {
+    "id": 18,
+    "title": "Mutton",
+    "image": "18.jpg",
+    "nutritionType": "Non-Veg",
+    "nutritionAmount": "6.3"
+  },
+  {
+    "id": 19,
+    "title": "Raddish",
+    "image": "19.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "9.5"
+  },
+  {
+    "id": 20,
+    "title": "Tomato",
+    "image": "20.jpg",
+    "nutritionType": "Vegetable",
+    "nutritionAmount": "7.4"
+  }
+]
