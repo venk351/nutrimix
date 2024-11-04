@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nutrimix/static/css/main.5c0dacca.css",
+    "main.js": "/nutrimix/static/js/main.b46fec61.js",
+    "static/js/453.c0208f28.chunk.js": "/nutrimix/static/js/453.c0208f28.chunk.js",
+    "static/media/Designer.jpeg": "/nutrimix/static/media/Designer.af2018edea9defab112b.jpeg",
+    "index.html": "/nutrimix/index.html",
+    "main.5c0dacca.css.map": "/nutrimix/static/css/main.5c0dacca.css.map",
+    "main.b46fec61.js.map": "/nutrimix/static/js/main.b46fec61.js.map",
+    "453.c0208f28.chunk.js.map": "/nutrimix/static/js/453.c0208f28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c0dacca.css",
+    "static/js/main.b46fec61.js"
+  ]
+}
