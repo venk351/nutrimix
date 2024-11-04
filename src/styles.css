@@ -46,6 +46,16 @@
     margin: 20px;
 }
 
+.search:focus-visible{
+  border: 5px solid #e48e1e;
+}
+.category:enabled{
+  background-color: #4ad189;
+  padding-right: 30px;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
 .tabs{
   border: 1px solid black;
   margin: 10px;

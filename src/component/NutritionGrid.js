@@ -29,13 +29,13 @@ export default function NutritionGrid(){
         <div className="container">
             <input className="search" type="text" placeholder="Type the nutrition food here..." value={search} onChange={handleSearchTerm}/>
             <div>
-                <select value={type} onChange={handleType}>
+                <select className="category" value={type} onChange={handleType}>
                 <option>All Category</option>
                 <option>Vegetable</option>
                 <option>Non-Veg</option>
                 <option>Dry-Fruits</option>
             </select>
-            <select value={amount} onChange={handleAmount}>
+            <select className="category" value={amount} onChange={handleAmount}>
                 <option>All</option>
                 <option>Good</option>
                 <option>Ok</option>
