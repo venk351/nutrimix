@@ -1,4 +1,4 @@
-import React,{ createContext, useState, useEffect } from "react";
+import React, { createContext, useState, useEffect } from "react";
 
 export const NutritionContext = createContext();
 
@@ -12,10 +12,10 @@ export const NutritionProvider = ({ children }) => {
         : [...prev, nutritionId]
     );
   useEffect(() => {
-    fetch("/nutrition-list.json")
-      .then(response => response.json())
-      .then(data => setNutrition(data))
-},[]);
+    fetch("/nutrimix/nutrition-list.json")
+      .then((response) => response.json())
+      .then((data) => setNutrition(data));
+  }, []);
   return (
     <NutritionContext.Provider value={{ nutritions, cart, toggleCartList }}>
       {children}

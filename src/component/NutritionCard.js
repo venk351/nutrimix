@@ -11,9 +11,9 @@ export default function NutritionCard({nutritions,
       <div className="nutrition">
         <img
           className="nutrition-image"
-          src={`./images/${nutritions.id}.jpg`}
+          src={require(`/public/images/${nutritions.id}.jpg`)}
           alt={nutritions.title}
-        ></img>
+        />
       </div>
       <div className="details">
         <h3>{nutritions.title}</h3>
