@@ -6,6 +6,7 @@ export default function NutritionCard({nutritions,
   isCartList
 }) {
   const {toggleCartList} = useContext(NutritionContext)
+  console.log("ID:", nutritions.id);
   return (
     <div className="nutrition-cart">
       <div className="nutrition">
