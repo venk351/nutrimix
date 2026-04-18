@@ -12,7 +12,7 @@ export default function NutritionCard({nutritions,
       <div className="nutrition">
         <img
           className="nutrition-image"
-          src={`/images/${nutritions.id}.jpg`}
+          src={`${process.env.PUBLIC_URL}/images/${nutritions.id}.jpg`}
           alt={nutritions.title}
         />
       </div>
